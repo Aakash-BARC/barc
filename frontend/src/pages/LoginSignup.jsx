@@ -13,7 +13,7 @@ function LoginSignup() {
     <div className='container'>
     <button onClick={Click}>Back</button>
     <div className="header">
-    <h3>XYZ WEBSITE</h3>
+    <h3>Productivity</h3>
     <div className="text">{action}</div>
     </div>
     <div className="inputs">

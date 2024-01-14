@@ -26,7 +26,7 @@ function Home() {
             </div>
           )}
         </div>
-        <div className="logo">XYZ Logo</div>
+        <div className="logo">Productivity</div>
         <div className="submit-container">
           <div className='submit'><Link to='/info'>Post</Link></div>
           <div className="submit"><Link to='/signup'>Sign In</Link></div>

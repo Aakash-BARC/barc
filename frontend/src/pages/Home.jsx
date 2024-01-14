@@ -29,7 +29,7 @@ function Home() {
         <div className="logo">Productivity</div>
         <div className="submit-container">
           <div className='submit'><Link to='/info'>Post</Link></div>
-          <div className="submit"><Link to='/signup'>Sign In</Link></div>
+          <div className="submit"><Link to='/signin'>Sign In</Link></div>
         </div>
         <div className="search-bar">
           <input type="text" placeholder="Search..." />

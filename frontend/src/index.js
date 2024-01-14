@@ -3,17 +3,19 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './index.css';
 import Home from "./pages/Home";
-import LoginSignup from "./pages/LoginSignup"
-import UploadInfo from "./pages/UploadInfo"
-import reportWebVitals from './reportWebVitals';
+import Login from "./pages/Login.jsx"
+import UploadInfo from "./pages/UploadInfo.jsx"
+import Register from "./pages/Register.jsx"
+import reportWebVitals from "./reportWebVitals.js"
 
 export default function App() {
     return (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path='/signup' element={<LoginSignup />} />
+          <Route path='/signin' element={<Login />} />
           <Route path='/info' element={<UploadInfo />} />
+          <Route path='/register'element={<Register />} />
         </Routes>
       </BrowserRouter>
     );
